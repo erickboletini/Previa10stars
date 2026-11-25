@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>10 STARS AUTO STUDIO | Estética Automotiva, PPF &amp; Películas em Osasco</title>
-  <meta name="description" content="10 Stars Auto Studio em Osasco - SP (Av. Brasil, 221). PPF Prime Gloss e Standard, Insulfilm Nano Carbon, Nano Cerâmica, Antivandalismo, Polimento + Vitrificação, Higienização Interna, Som, Multimídia, Envelopamento, Engate e Acessórios." />
+  <title>10 STARS AUTO STUDIO | Estética Automotiva, PPF &amp; Películas</title>
+  <meta name="description" content="10 Stars Auto Studio. PPF Prime Gloss, Matte e Standard, Insulfilm Nano Carbon, Nano Cerâmica, Antivandalismo, Polimento + Vitrificação, Higienização Interna, Som, Multimídia, Envelopamento, Engate e Acessórios." />
 
   <!-- Favicon usando exclusivamente logo-10stars.png -->
   <link id="siteFavicon" rel="icon" type="image/png" href="logo-10stars.png" />
@@ -12,8 +12,8 @@
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="10 STARS AUTO STUDIO | Estética Automotiva em Osasco" />
-  <meta property="og:description" content="Av. Brasil, 221 • Osasco - SP • (11) 96117-9202 • @10stars.autostudio" />
+  <meta property="og:title" content="10 STARS AUTO STUDIO | Estética Automotiva" />
+  <meta property="og:description" content="(11) 96117-9202 • @10stars.autostudio" />
   <meta property="og:image" content="logo-10stars.png" />
 
   <!-- Fonte Inter -->
@@ -338,9 +338,7 @@
        FUNDO CONTÍNUO DE CENAS DO ESTÚDIO (SEM REPETIÇÃO IMEDIATA)
        ===================================================================== -->
   <div id="studioBackground" class="studio-bg-layer" aria-hidden="true">
-    <div id="studioBgTrack" class="studio-bg-track">
-      <!-- Populado dinamicamente com sequência única seguida de ciclo contínuo -->
-    </div>
+    <div id="studioBgTrack" class="studio-bg-track"></div>
   </div>
 
   <!-- Véu de contraste para leitura confortável -->
@@ -354,7 +352,6 @@
     <!-- CABEÇALHO -->
     <header class="sticky top-0 z-40 backdrop-blur-md border-b border-[#d4af37]/25 bg-black/80">
       <div class="max-w-7xl mx-auto px-3 sm:px-6 min-h-14 sm:min-h-20 py-2 flex items-center justify-between gap-2 sm:gap-3 flex-wrap">
-        <!-- Exclusivamente logo-10stars.png -->
         <a href="#inicio" class="flex items-center gap-2 sm:gap-3 shrink-0" aria-label="10 Stars Auto Studio">
           <img
             src="logo-10stars.png"
@@ -366,13 +363,14 @@
 
         <!-- Navegação -->
         <nav class="hidden xl:flex items-center gap-5 text-xs font-bold uppercase tracking-wider text-slate-200">
-          <a href="#ambiente" class="hover:text-[#f6d76b] transition">Ambiente</a>
           <a href="#ppf-secao" class="hover:text-[#f6d76b] transition">PPF</a>
           <a href="#servicos" class="hover:text-[#f6d76b] transition">Serviços</a>
+          <a href="#videos" class="hover:text-[#f6d76b] transition">Bastidores &amp; Entregas</a>
           <a href="#pos-servico" class="hover:text-[#f6d76b] transition">Pós-Serviço</a>
+          <a href="#ambiente" class="hover:text-[#f6d76b] transition">Ambiente</a>
           <a href="#faq" class="hover:text-[#f6d76b] transition">FAQ</a>
           <a href="#simulador" class="hover:text-[#f6d76b] transition">Orçamento</a>
-          <a href="#localizacao" class="hover:text-[#f6d76b] transition">Osasco</a>
+          <a href="#localizacao" class="hover:text-[#f6d76b] transition">Localização</a>
         </nav>
 
         <!-- Controles: Pausar/Retomar, Visibilidade do Fundo, Tema Claro/Escuro e WhatsApp -->
@@ -412,75 +410,58 @@
       </div>
     </header>
 
-    <!-- HERO & VISÃO GERAL DO ESTÚDIO -->
-    <section id="inicio" class="pt-6 sm:pt-12 pb-8 sm:pb-16 px-4 sm:px-6">
-      <div class="max-w-5xl mx-auto panel-surface studio-card p-5 sm:p-12 text-center space-y-4 sm:space-y-6">
+    <!-- ESPAÇO SUPERIOR ANTES DO BLOCO INICIAL -->
+    <div class="h-16 sm:h-28" aria-hidden="true"></div>
+
+    <!-- HERO & VISÃO GERAL DO ESTÚDIO (SEM ENDEREÇO E SEM MENÇÃO A OSASCO) -->
+    <section id="inicio" class="pt-8 sm:pt-12 pb-6 sm:pb-12 px-4 sm:px-6">
+      <div class="max-w-3xl mx-auto panel-surface studio-card p-4 sm:p-8 text-center space-y-3 sm:space-y-4">
         <div class="flex justify-center">
           <img
             src="logo-10stars.png"
             alt="10 Stars Auto Studio"
             onerror="handleLogoFallback(this)"
-            class="h-14 sm:h-24 w-auto object-contain rounded-xl"
+            class="h-12 sm:h-16 w-auto object-contain rounded-xl"
           />
         </div>
 
-        <p class="text-[11px] sm:text-sm font-bold uppercase tracking-[0.14em] sm:tracking-[0.22em] text-[#d4af37] break-words">
-          Av. Brasil, 221 • Osasco - SP • (11) 96117-9202 • @10stars.autostudio
+        <p class="text-[11px] sm:text-xs font-bold uppercase tracking-[0.14em] sm:tracking-[0.2em] text-[#d4af37] break-words">
+          (11) 96117-9202 • @10stars.autostudio
         </p>
 
-        <h1 class="text-xl sm:text-5xl md:text-6xl font-black uppercase tracking-tight leading-tight text-primary-ink">
-          Estética Automotiva, <span class="gold-text">PPF &amp; Películas</span> em Osasco
+        <h1 class="text-xl sm:text-4xl md:text-5xl font-black uppercase tracking-tight leading-tight text-primary-ink">
+          Estética Automotiva, <span class="gold-text">PPF &amp; Películas</span>
         </h1>
 
-        <p class="max-w-3xl mx-auto text-sm sm:text-lg text-secondary-ink leading-relaxed">
-          Estrutura completa na Avenida Brasil, 221 em Osasco com atendimento especializado para proteção de pintura, controle térmico e segurança nos vidros, acabamento estético, som, multimídia, envelopamento, engate e acessórios automotivos.
+        <p class="max-w-2xl mx-auto text-xs sm:text-base text-secondary-ink leading-relaxed">
+          Estrutura completa com atendimento especializado para proteção de pintura, controle térmico e segurança nos vidros, acabamento estético, som, multimídia, envelopamento, engate e acessórios automotivos.
         </p>
 
-        <div class="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-2.5 sm:gap-4">
-          <a href="#simulador" class="w-full sm:w-auto gold-btn px-6 sm:px-7 py-3 sm:py-3.5 rounded-xl text-xs sm:text-sm font-extrabold uppercase tracking-wider">
+        <div class="pt-1 flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-2.5 sm:gap-3">
+          <a href="#simulador" class="w-full sm:w-auto gold-btn px-5 sm:px-6 py-2.5 sm:py-3 rounded-xl text-xs sm:text-sm font-extrabold uppercase tracking-wider">
             Simular Orçamento
           </a>
-          <a href="#servicos" class="w-full sm:w-auto px-6 sm:px-7 py-3 sm:py-3.5 rounded-xl border border-[#d4af37]/50 bg-black/50 text-white text-xs sm:text-sm font-bold uppercase tracking-wider hover:border-[#d4af37] transition">
-            Ver Serviços e Valores
+          <a href="#servicos" class="w-full sm:w-auto px-5 sm:px-6 py-2.5 sm:py-3 rounded-xl border border-[#d4af37]/50 bg-black/50 text-white text-xs sm:text-sm font-bold uppercase tracking-wider hover:border-[#d4af37] transition">
+            Ver Serviços
           </a>
         </div>
       </div>
     </section>
 
-    <!-- AMBIENTE DO ESTÚDIO (FOTOS DO ESPAÇO COM MODAL DE AMPLIAÇÃO) -->
-    <section id="ambiente" class="py-8 sm:py-14 px-4 sm:px-6">
-      <div class="max-w-7xl mx-auto space-y-6 sm:space-y-8">
-        <div class="text-center max-w-3xl mx-auto space-y-2">
-          <span class="text-xs font-extrabold uppercase tracking-[0.24em] text-[#d4af37]">Nosso Espaço Físico</span>
-          <h2 class="text-3xl sm:text-5xl font-black uppercase tracking-tight text-primary-ink">
-            Ambiente 10 Stars Auto Studio
-          </h2>
-          <p class="text-sm sm:text-base text-secondary-ink">
-            Conheça a recepção, balcão de atendimento, iluminação interna e área dedicada aos veículos. Clique em qualquer foto para ampliar.
-          </p>
-        </div>
-
-        <div id="environmentGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-          <!-- Renderizado via JavaScript a partir das fotos do estúdio -->
-        </div>
-      </div>
-    </section>
-
-    <!-- PPF: COMPARATIVO & "POR QUE INVESTIR EM PPF?" -->
+    <!-- PPF: COMPARATIVO & "POR QUE INVESTIR EM PPF?" (ANTES DO AMBIENTE) -->
     <section id="ppf-secao" class="py-8 sm:py-14 px-4 sm:px-6">
       <div class="max-w-7xl mx-auto space-y-6 sm:space-y-10">
         <div class="text-center max-w-3xl mx-auto space-y-2">
           <span class="text-xs font-extrabold uppercase tracking-[0.24em] text-[#d4af37]">Paint Protection Film</span>
           <h2 class="text-3xl sm:text-5xl font-black uppercase tracking-tight text-primary-ink">
-            PPF Prime Gloss &amp; Standard
+            PPF Prime Gloss, Matte &amp; Standard
           </h2>
           <p class="text-sm sm:text-base text-secondary-ink">
-            Escolha o nível de proteção ideal para preservar a pintura original do seu carro ou caminhonete.
+            Escolha o nível de proteção e o acabamento ideal para preservar a pintura original do seu carro ou caminhonete.
           </p>
         </div>
 
-        <!-- Comparativo PPF -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-7">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-7">
           <div class="studio-card p-5 sm:p-7 border-[#d4af37]/50 flex flex-col justify-between space-y-4 sm:space-y-6">
             <div class="space-y-4">
               <div class="flex items-center justify-between gap-2 flex-wrap">
@@ -493,18 +474,45 @@
                 PPF Prime Gloss / Full Importado
               </h3>
               <p class="text-sm text-secondary-ink leading-relaxed">
-                Película de poliuretano de alta performance com brilho profundo, alta transparência e tecnologia autorregenerativa ao calor contra micro-riscos, pedriscos e raios UV.
+                Película de poliuretano de alta performance com brilho profundo, alta transparência e tecnologia autorregenerativa ao calor contra micro-riscos, pedriscos e raios UV. 190 micras, 100% TPU, regenerativo, hidrorrepelência e 7 anos de garantia.
               </p>
               <div class="p-4 rounded-xl bg-black/60 border-l-4 border-[#d4af37] text-white">
-                <span class="text-xs uppercase tracking-wider text-slate-300 block">A partir de</span>
-                <span class="text-3xl font-black text-[#f6d76b] block mt-0.5">R$ 8.999,00</span>
+                <span class="text-xs uppercase tracking-wider text-slate-300 block">Condição</span>
+                <span class="text-2xl font-black text-[#f6d76b] block mt-0.5">Sob consulta</span>
               </div>
             </div>
             <button
               type="button"
-              onclick="selectServiceInSimulator('PPF Prime Gloss Importado (7 Anos)', 8999)"
+              onclick="selectServiceInSimulator('PPF Prime Gloss Importado (7 Anos)')"
               class="w-full py-3 rounded-xl gold-btn text-sm font-extrabold uppercase tracking-wider">
               Selecionar PPF Prime Gloss
+            </button>
+          </div>
+
+          <div class="studio-card p-5 sm:p-7 border-[#d4af37]/40 flex flex-col justify-between space-y-4 sm:space-y-6">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between gap-2 flex-wrap">
+                <span class="px-3 py-1 rounded-full bg-white/15 text-[#f6d76b] text-xs font-extrabold uppercase tracking-wider">
+                  Acabamento Matte
+                </span>
+                <span class="text-xs font-bold uppercase tracking-wider text-[#f6d76b]">7 Anos de Garantia</span>
+              </div>
+              <h3 class="text-2xl sm:text-3xl font-black uppercase text-primary-ink">
+                PPF Matte
+              </h3>
+              <p class="text-sm text-secondary-ink leading-relaxed">
+                Película de poliuretano de alta performance com acabamento matte sofisticado, alta uniformidade visual e tecnologia autorregenerativa ao calor contra micro-riscos, pedriscos e raios UV. 190 micras, 100% TPU, regenerativo, hidrorrepelência e 7 anos de garantia.
+              </p>
+              <div class="p-4 rounded-xl bg-black/60 border-l-4 border-[#d4af37] text-white">
+                <span class="text-xs uppercase tracking-wider text-slate-300 block">Condição</span>
+                <span class="text-2xl font-black text-[#f6d76b] block mt-0.5">Sob consulta</span>
+              </div>
+            </div>
+            <button
+              type="button"
+              onclick="selectServiceInSimulator('PPF Matte (7 Anos)')"
+              class="w-full py-3 rounded-xl gold-btn text-sm font-extrabold uppercase tracking-wider">
+              Selecionar PPF Matte
             </button>
           </div>
 
@@ -523,13 +531,13 @@
                 Proteção eficiente contra detritos de rodovia, marcas de uso diário e agressões ambientais, mantendo o aspecto cuidado da pintura com excelente custo-benefício.
               </p>
               <div class="p-4 rounded-xl bg-black/60 border-l-4 border-emerald-400 text-white">
-                <span class="text-xs uppercase tracking-wider text-slate-300 block">A partir de</span>
-                <span class="text-3xl font-black text-[#f6d76b] block mt-0.5">R$ 7.899,00</span>
+                <span class="text-xs uppercase tracking-wider text-slate-300 block">Condição</span>
+                <span class="text-2xl font-black text-[#f6d76b] block mt-0.5">Sob consulta</span>
               </div>
             </div>
             <button
               type="button"
-              onclick="selectServiceInSimulator('PPF Standard (4 Anos)', 7899)"
+              onclick="selectServiceInSimulator('PPF Standard (4 Anos)')"
               class="w-full py-3 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-sm font-extrabold uppercase tracking-wider transition">
               Selecionar PPF Standard
             </button>
@@ -566,7 +574,7 @@
           <div class="pt-2">
             <button
               type="button"
-              onclick="selectServiceInSimulator('PPF Prime Gloss Importado (7 Anos)', 8999)"
+              onclick="selectServiceInSimulator('PPF Prime Gloss Importado (7 Anos)')"
               class="gold-btn px-6 py-3 rounded-xl text-xs sm:text-sm font-extrabold uppercase tracking-wider">
               Simular PPF no Orçamento
             </button>
@@ -575,21 +583,20 @@
       </div>
     </section>
 
-    <!-- CATÁLOGO COMPLETO DE SERVIÇOS E VALORES -->
+    <!-- CATÁLOGO COMPLETO DE SERVIÇOS -->
     <section id="servicos" class="py-8 sm:py-14 px-4 sm:px-6">
       <div class="max-w-7xl mx-auto space-y-6 sm:space-y-8">
         <div class="text-center max-w-3xl mx-auto space-y-2">
           <span class="text-xs font-extrabold uppercase tracking-[0.24em] text-[#d4af37]">Catálogo 10 Stars</span>
           <h2 class="text-3xl sm:text-5xl font-black uppercase tracking-tight text-primary-ink">
-            Serviços &amp; Preços
+            Serviços
           </h2>
           <p class="text-sm sm:text-base text-secondary-ink">
-            Proteção solar, segurança, estética, som, multimídia, envelopamento, engate, acessórios em geral e para caminhonetes em Osasco.
+            Proteção solar, segurança, estética, som, multimídia, envelopamento, engate, acessórios em geral e para caminhonetes.
           </p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-          <!-- Insulfilm Nano Carbon -->
           <div class="studio-card p-5 sm:p-6 flex flex-col justify-between space-y-4 sm:space-y-5">
             <div class="space-y-3">
               <span class="text-xs font-extrabold uppercase tracking-wider text-[#d4af37]">Películas Solares</span>
@@ -598,17 +605,16 @@
                 Controle térmico, bloqueio UV e redução de luminosidade com visibilidade nítida nas tonalidades G05, G20 e G35.
               </p>
               <div class="p-3.5 rounded-xl bg-black/60 border border-white/10 text-white flex items-baseline justify-between">
-                <span class="text-xs text-slate-300">A partir de</span>
-                <span class="text-2xl font-black text-[#f6d76b]">R$ 499,00</span>
+                <span class="text-xs text-slate-300">Condição</span>
+                <span class="text-lg font-extrabold text-[#f6d76b]">Sob consulta</span>
               </div>
             </div>
-            <button type="button" onclick="selectServiceInSimulator('Insulfilm Nano Carbon', 499)"
-                    class="w-full py-2.5 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-xs font-extrabold uppercase tracking-wider transition">
+            <button type="button" onclick="selectServiceInSimulator('Insulfilm Nano Carbon')"
+              class="w-full py-2.5 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-xs font-extrabold uppercase tracking-wider transition">
               Adicionar ao Orçamento
             </button>
           </div>
 
-          <!-- Insulfilm Nano Cerâmica -->
           <div class="studio-card p-5 sm:p-6 flex flex-col justify-between space-y-4 sm:space-y-5">
             <div class="space-y-3">
               <span class="text-xs font-extrabold uppercase tracking-wider text-[#d4af37]">Alta Rejeição Térmica</span>
@@ -621,13 +627,12 @@
                 <span class="text-lg font-extrabold text-[#f6d76b]">Sob consulta</span>
               </div>
             </div>
-            <button type="button" onclick="selectServiceInSimulator('Insulfilm Nano Cerâmica', 0)"
-                    class="w-full py-2.5 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-xs font-extrabold uppercase tracking-wider transition">
+            <button type="button" onclick="selectServiceInSimulator('Insulfilm Nano Cerâmica')"
+              class="w-full py-2.5 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-xs font-extrabold uppercase tracking-wider transition">
               Adicionar ao Orçamento
             </button>
           </div>
 
-          <!-- Insulfilm Antivandalismo -->
           <div class="studio-card p-5 sm:p-6 flex flex-col justify-between space-y-4 sm:space-y-5">
             <div class="space-y-3">
               <span class="text-xs font-extrabold uppercase tracking-wider text-[#d4af37]">Segurança nos Vidros</span>
@@ -636,17 +641,16 @@
                 Camada de reforço estrutural para os vidros que ajuda a conter estilhaços e dificulta arrombamentos rápidos.
               </p>
               <div class="p-3.5 rounded-xl bg-black/60 border border-white/10 text-white flex items-baseline justify-between">
-                <span class="text-xs text-slate-300">A partir de</span>
-                <span class="text-2xl font-black text-[#f6d76b]">R$ 999,00</span>
+                <span class="text-xs text-slate-300">Condição</span>
+                <span class="text-lg font-extrabold text-[#f6d76b]">Sob consulta</span>
               </div>
             </div>
-            <button type="button" onclick="selectServiceInSimulator('Insulfilm Antivandalismo', 999)"
-                    class="w-full py-2.5 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-xs font-extrabold uppercase tracking-wider transition">
+            <button type="button" onclick="selectServiceInSimulator('Insulfilm Antivandalismo')"
+              class="w-full py-2.5 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-xs font-extrabold uppercase tracking-wider transition">
               Adicionar ao Orçamento
             </button>
           </div>
 
-          <!-- Polimento + Vitrificação -->
           <div class="studio-card p-5 sm:p-6 flex flex-col justify-between space-y-4 sm:space-y-5 border-[#d4af37]/45">
             <div class="space-y-3">
               <span class="text-xs font-extrabold uppercase tracking-wider text-rose-400">Brilho &amp; Proteção Cerâmica</span>
@@ -655,17 +659,16 @@
                 Correção de brilho, realce da pintura e camada vitrificada com repelência à água e facilidade de limpeza.
               </p>
               <div class="p-3.5 rounded-xl bg-black/60 border-l-4 border-[#d4af37] text-white flex items-baseline justify-between">
-                <span class="text-xs text-slate-300">A partir de</span>
-                <span class="text-2xl font-black text-[#f6d76b]">R$ 899,00</span>
+                <span class="text-xs text-slate-300">Condição</span>
+                <span class="text-lg font-extrabold text-[#f6d76b]">Sob consulta</span>
               </div>
             </div>
-            <button type="button" onclick="selectServiceInSimulator('Polimento + Vitrificação', 899)"
-                    class="w-full py-2.5 rounded-xl gold-btn text-xs font-extrabold uppercase tracking-wider">
+            <button type="button" onclick="selectServiceInSimulator('Polimento + Vitrificação')"
+              class="w-full py-2.5 rounded-xl gold-btn text-xs font-extrabold uppercase tracking-wider">
               Adicionar ao Orçamento
             </button>
           </div>
 
-          <!-- Higienização Interna -->
           <div class="studio-card p-5 sm:p-6 flex flex-col justify-between space-y-4 sm:space-y-5">
             <div class="space-y-3">
               <span class="text-xs font-extrabold uppercase tracking-wider text-emerald-400">Cuidado Interno Completo</span>
@@ -674,17 +677,16 @@
                 Limpeza detalhada de bancos, carpetes, forro de teto, portas, painel e porta-malas para um interior renovado.
               </p>
               <div class="p-3.5 rounded-xl bg-black/60 border-l-4 border-emerald-400 text-white flex items-baseline justify-between">
-                <span class="text-xs text-slate-300">A partir de</span>
-                <span class="text-2xl font-black text-[#f6d76b]">R$ 499,00</span>
+                <span class="text-xs text-slate-300">Condição</span>
+                <span class="text-lg font-extrabold text-[#f6d76b]">Sob consulta</span>
               </div>
             </div>
-            <button type="button" onclick="selectServiceInSimulator('Higienização Interna', 499)"
-                    class="w-full py-2.5 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-xs font-extrabold uppercase tracking-wider transition">
+            <button type="button" onclick="selectServiceInSimulator('Higienização Interna')"
+              class="w-full py-2.5 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-xs font-extrabold uppercase tracking-wider transition">
               Adicionar ao Orçamento
             </button>
           </div>
 
-          <!-- Envelopamento -->
           <div class="studio-card p-5 sm:p-6 flex flex-col justify-between space-y-4 sm:space-y-5">
             <div class="space-y-3">
               <span class="text-xs font-extrabold uppercase tracking-wider text-[#d4af37]">Personalização Visual</span>
@@ -693,17 +695,16 @@
                 Aplicação de vinil automotivo, black piano, fosco ou detalhes personalizados com alinhamento e recorte técnico.
               </p>
               <div class="p-3.5 rounded-xl bg-black/60 border border-white/10 text-white flex items-baseline justify-between">
-                <span class="text-xs text-slate-300">A partir de</span>
-                <span class="text-2xl font-black text-[#f6d76b]">R$ 4.799,00</span>
+                <span class="text-xs text-slate-300">Condição</span>
+                <span class="text-lg font-extrabold text-[#f6d76b]">Sob consulta</span>
               </div>
             </div>
-            <button type="button" onclick="selectServiceInSimulator('Envelopamento', 4799)"
-                    class="w-full py-2.5 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-xs font-extrabold uppercase tracking-wider transition">
+            <button type="button" onclick="selectServiceInSimulator('Envelopamento')"
+              class="w-full py-2.5 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-xs font-extrabold uppercase tracking-wider transition">
               Adicionar ao Orçamento
             </button>
           </div>
 
-          <!-- Som Automotivo -->
           <div class="studio-card p-5 sm:p-6 flex flex-col justify-between space-y-4 sm:space-y-5">
             <div class="space-y-3">
               <span class="text-xs font-extrabold uppercase tracking-wider text-[#d4af37]">Áudio</span>
@@ -716,13 +717,12 @@
                 <span class="text-lg font-extrabold text-[#f6d76b]">Sob consulta</span>
               </div>
             </div>
-            <button type="button" onclick="selectServiceInSimulator('Som Automotivo', 0)"
-                    class="w-full py-2.5 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-xs font-extrabold uppercase tracking-wider transition">
+            <button type="button" onclick="selectServiceInSimulator('Som Automotivo')"
+              class="w-full py-2.5 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-xs font-extrabold uppercase tracking-wider transition">
               Adicionar ao Orçamento
             </button>
           </div>
 
-          <!-- Multimídia -->
           <div class="studio-card p-5 sm:p-6 flex flex-col justify-between space-y-4 sm:space-y-5">
             <div class="space-y-3">
               <span class="text-xs font-extrabold uppercase tracking-wider text-[#d4af37]">Conectividade</span>
@@ -735,13 +735,12 @@
                 <span class="text-lg font-extrabold text-[#f6d76b]">Sob consulta</span>
               </div>
             </div>
-            <button type="button" onclick="selectServiceInSimulator('Multimídia', 0)"
-                    class="w-full py-2.5 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-xs font-extrabold uppercase tracking-wider transition">
+            <button type="button" onclick="selectServiceInSimulator('Multimídia')"
+              class="w-full py-2.5 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-xs font-extrabold uppercase tracking-wider transition">
               Adicionar ao Orçamento
             </button>
           </div>
 
-          <!-- Engate -->
           <div class="studio-card p-5 sm:p-6 flex flex-col justify-between space-y-4 sm:space-y-5">
             <div class="space-y-3">
               <span class="text-xs font-extrabold uppercase tracking-wider text-[#d4af37]">Reboque &amp; Fixação</span>
@@ -754,13 +753,12 @@
                 <span class="text-lg font-extrabold text-[#f6d76b]">Sob consulta</span>
               </div>
             </div>
-            <button type="button" onclick="selectServiceInSimulator('Engate', 0)"
-                    class="w-full py-2.5 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-xs font-extrabold uppercase tracking-wider transition">
+            <button type="button" onclick="selectServiceInSimulator('Engate')"
+              class="w-full py-2.5 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-xs font-extrabold uppercase tracking-wider transition">
               Adicionar ao Orçamento
             </button>
           </div>
 
-          <!-- Acessórios em Geral -->
           <div class="studio-card p-5 sm:p-6 flex flex-col justify-between space-y-4 sm:space-y-5">
             <div class="space-y-3">
               <span class="text-xs font-extrabold uppercase tracking-wider text-[#d4af37]">Equipamentos</span>
@@ -773,13 +771,12 @@
                 <span class="text-lg font-extrabold text-[#f6d76b]">Sob consulta</span>
               </div>
             </div>
-            <button type="button" onclick="selectServiceInSimulator('Acessórios em Geral', 0)"
-                    class="w-full py-2.5 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-xs font-extrabold uppercase tracking-wider transition">
+            <button type="button" onclick="selectServiceInSimulator('Acessórios em Geral')"
+              class="w-full py-2.5 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-xs font-extrabold uppercase tracking-wider transition">
               Adicionar ao Orçamento
             </button>
           </div>
 
-          <!-- Acessórios para Caminhonetes -->
           <div class="studio-card p-5 sm:p-6 flex flex-col justify-between space-y-4 sm:space-y-5">
             <div class="space-y-3">
               <span class="text-xs font-extrabold uppercase tracking-wider text-[#d4af37]">Linha Pick-up</span>
@@ -792,8 +789,8 @@
                 <span class="text-lg font-extrabold text-[#f6d76b]">Sob consulta</span>
               </div>
             </div>
-            <button type="button" onclick="selectServiceInSimulator('Acessórios para Caminhonetes', 0)"
-                    class="w-full py-2.5 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-xs font-extrabold uppercase tracking-wider transition">
+            <button type="button" onclick="selectServiceInSimulator('Acessórios para Caminhonetes')"
+              class="w-full py-2.5 rounded-xl bg-white/15 hover:bg-[#d4af37] hover:text-black text-white text-xs font-extrabold uppercase tracking-wider transition">
               Adicionar ao Orçamento
             </button>
           </div>
@@ -801,7 +798,7 @@
       </div>
     </section>
 
-    <!-- DOIS PLAYERS DE VÍDEO VERTICAIS 9:16 -->
+    <!-- PLAYERS DE VÍDEO VERTICAIS 9:16 (ACIMA DO AMBIENTE) -->
     <section id="videos" class="py-8 sm:py-14 px-4 sm:px-6">
       <div class="max-w-6xl mx-auto space-y-6 sm:space-y-10">
         <div class="text-center max-w-3xl mx-auto space-y-2">
@@ -871,11 +868,224 @@
               <p class="text-xs sm:text-sm text-secondary-ink">Preparação, proteção e finalização no estúdio.</p>
             </div>
           </div>
+
+          <!-- Player 3: video-mercedes-c300-ppf-matte.mp4 -->
+          <div class="studio-card p-4 sm:p-6 space-y-3 sm:space-y-4 flex flex-col items-center">
+            <div class="w-full max-w-[260px] sm:max-w-[320px] aspect-[9/16] rounded-2xl overflow-hidden border border-[#d4af37]/45 bg-black relative">
+              <video
+                id="mercedesVideoPlayer"
+                src="video-mercedes-c300-ppf-matte.mp4"
+                class="w-full h-full object-cover"
+                controls
+                playsinline
+                muted
+                loop
+                preload="metadata">
+                Seu navegador não suporta reprodução de vídeo.
+              </video>
+              <div
+                id="mercedesVideoFallback"
+                class="hidden absolute inset-0 bg-zinc-950/95 p-6 flex flex-col items-center justify-center text-center space-y-3 pointer-events-none">
+                <img src="logo-10stars.png" alt="10 Stars Auto Studio" onerror="handleLogoFallback(this)" class="h-14 w-auto object-contain" />
+                <p class="text-sm font-bold text-[#f6d76b]">Mercedes C300 • Full PPF Matte</p>
+                <p class="text-xs text-slate-300 leading-relaxed">
+                  Adicione o arquivo <span class="font-semibold text-white">video-mercedes-c300-ppf-matte.mp4</span> na pasta do site para reproduzir este vídeo.
+                </p>
+              </div>
+            </div>
+            <div class="text-center space-y-2">
+              <h3 class="text-xl font-extrabold uppercase text-primary-ink">MERCEDES C300 | FULL PPF MATTE</h3>
+              <p class="text-xs sm:text-sm text-secondary-ink leading-relaxed">
+                Um projeto exclusivo merece uma proteção à altura! 🔥 Nesta Mercedes C300, realizamos a aplicação de FULL PPF MATTE (FOSCO), transformando o visual do veículo com um acabamento ainda mais sofisticado e esportivo.
+              </p>
+              <ul class="text-xs sm:text-sm text-secondary-ink space-y-1">
+                <li>✨ Detalhes em Black Piano</li>
+                <li>🛡️ PPF nos faróis e lanternas</li>
+                <li>🏁 Proteção completa da pintura com acabamento fosco</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Player 4: video-audi-cabriolet-envelopamento.mp4 -->
+          <div class="studio-card p-4 sm:p-6 space-y-3 sm:space-y-4 flex flex-col items-center">
+            <div class="w-full max-w-[260px] sm:max-w-[320px] aspect-[9/16] rounded-2xl overflow-hidden border border-[#d4af37]/45 bg-black relative">
+              <video
+                id="audiCabrioletVideoPlayer"
+                src="video-audi-cabriolet-envelopamento.mp4"
+                class="w-full h-full object-cover"
+                controls
+                playsinline
+                muted
+                loop
+                preload="metadata">
+                Seu navegador não suporta reprodução de vídeo.
+              </video>
+              <div
+                id="audiCabrioletVideoFallback"
+                class="hidden absolute inset-0 bg-zinc-950/95 p-6 flex flex-col items-center justify-center text-center space-y-3 pointer-events-none">
+                <img src="logo-10stars.png" alt="10 Stars Auto Studio" onerror="handleLogoFallback(this)" class="h-14 w-auto object-contain" />
+                <p class="text-sm font-bold text-[#f6d76b]">Audi Cabriolet • Envelopamento Completo</p>
+                <p class="text-xs text-slate-300 leading-relaxed">
+                  Adicione o arquivo <span class="font-semibold text-white">video-audi-cabriolet-envelopamento.mp4</span> na pasta do site para reproduzir este vídeo.
+                </p>
+              </div>
+            </div>
+            <div class="text-center space-y-2">
+              <h3 class="text-xl font-extrabold uppercase text-primary-ink">AUDI CABRIOLET | ENVELOPAMENTO COMPLETO</h3>
+              <p class="text-xs sm:text-sm text-secondary-ink leading-relaxed">
+                Essa Audi Cabriolet conversível passou por um envelopamento completo na 10 Stars Auto Studio. 🖤🔥
+              </p>
+              <ul class="text-xs sm:text-sm text-secondary-ink space-y-1">
+                <li>🇺🇸 Material importado premium</li>
+                <li>🎯 Acabamento profissional de alto padrão</li>
+                <li>✨ Envelopamento completo</li>
+                <li>🛡️ Mais exclusividade e proteção para a pintura</li>
+                <li>🏁 Detalhamento em cada recorte e acabamento</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- AVALIAÇÕES DO GOOGLE: DESTAQUE PARA AVALIAR + BLOCO REAL EDITÁVEL SEM INVENÇÕES -->
+    <!-- CUIDADOS APÓS O SERVIÇO (LOGO APÓS OS VÍDEOS) -->
+    <section id="pos-servico" class="py-8 sm:py-14 px-4 sm:px-6">
+      <div class="max-w-7xl mx-auto studio-card p-5 sm:p-10 border-[#d4af37]/40 space-y-5 sm:space-y-7">
+        <div class="space-y-2 max-w-3xl">
+          <span class="text-xs font-extrabold uppercase tracking-[0.24em] text-[#d4af37]">Pós-Entrega</span>
+          <h2 class="text-3xl sm:text-4xl font-black uppercase tracking-tight text-primary-ink">
+            Cuidados Após o Serviço
+          </h2>
+          <p class="text-sm sm:text-base text-secondary-ink leading-relaxed">
+            Orientações práticas para os primeiros dias após retirar o veículo da 10 Stars Auto Studio e preservar o acabamento aplicado.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 text-sm text-secondary-ink">
+          <div class="p-5 rounded-2xl bg-black/55 border border-white/10 text-slate-200 space-y-2">
+            <span class="text-xs font-extrabold uppercase tracking-wider text-[#f6d76b]">PPF e Envelopamento</span>
+            <h3 class="text-lg font-extrabold text-white">Cura das Bordas e Lavagem</h3>
+            <p class="leading-relaxed">
+              Evite lavagens de alta pressão, jatos diretos nas bordas ou cera/polimento durante os primeiros dias de acomodação do filme; siga sempre a orientação passada na entrega.
+            </p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-black/55 border border-white/10 text-slate-200 space-y-2">
+            <span class="text-xs font-extrabold uppercase tracking-wider text-[#f6d76b]">Insulfilm</span>
+            <h3 class="text-lg font-extrabold text-white">Vidros e Limpeza Interna</h3>
+            <p class="leading-relaxed">
+              Aguarde o período recomendado antes de acionar os vidros ou limpar a face interna; pequenas marcas de secagem fazem parte do processo inicial e tendem a sumir.
+            </p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-black/55 border border-white/10 text-slate-200 space-y-2">
+            <span class="text-xs font-extrabold uppercase tracking-wider text-[#f6d76b]">Polimento + Vitrificação e Higienização</span>
+            <h3 class="text-lg font-extrabold text-white">Manutenção do Brilho e Interior</h3>
+            <p class="leading-relaxed">
+              Prefira lavagem neutra e panos de microfibra limpos, evitando produtos abrasivos na pintura vitrificada e mantendo o interior arejado após a higienização.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AMBIENTE DO ESTÚDIO (MAIS PARA BAIXO, APÓS OS SERVIÇOS E BASTIDORES & ENTREGAS) -->
+    <section id="ambiente" class="py-8 sm:py-14 px-4 sm:px-6">
+      <div class="max-w-7xl mx-auto space-y-6 sm:space-y-8">
+        <div class="text-center max-w-3xl mx-auto space-y-2">
+          <span class="text-xs font-extrabold uppercase tracking-[0.24em] text-[#d4af37]">Nosso Espaço Físico</span>
+          <h2 class="text-3xl sm:text-5xl font-black uppercase tracking-tight text-primary-ink">
+            Ambiente 10 Stars Auto Studio
+          </h2>
+          <p class="text-sm sm:text-base text-secondary-ink">
+            Conheça a recepção, balcão de atendimento, iluminação interna e área dedicada aos veículos. Clique em qualquer foto para ampliar.
+          </p>
+        </div>
+
+        <div id="environmentGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+          <!-- Renderizado via JavaScript a partir das fotos do estúdio -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SIMULADOR DE ORÇAMENTO INTERATIVO COM ENVIO DIRETO AO WHATSAPP (SOB CONSULTA) -->
+    <section id="simulador" class="py-8 sm:py-14 px-4 sm:px-6">
+      <div class="max-w-4xl mx-auto studio-card p-5 sm:p-10 border-[#d4af37]/45 space-y-5 sm:space-y-7">
+        <div class="text-center space-y-2">
+          <span class="text-xs font-extrabold uppercase tracking-[0.24em] text-[#d4af37]">Simulador de Orçamento</span>
+          <h2 class="text-3xl sm:text-5xl font-black uppercase tracking-tight text-primary-ink">
+            Monte Seu Orçamento
+          </h2>
+          <p class="text-sm text-secondary-ink">
+            Informe seu veículo, marque os serviços desejados e envie direto para o WhatsApp da 10 Stars Auto Studio. Todos os orçamentos são sob consulta.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div>
+            <label for="vehicleModel" class="block text-xs font-bold uppercase tracking-wider text-secondary-ink mb-2">
+              Veículo / Modelo
+            </label>
+            <input
+              id="vehicleModel"
+              type="text"
+              placeholder="Ex: Haval H6 GT / Toro"
+              class="w-full px-4 py-3 rounded-xl border text-sm field-input focus:outline-none focus:border-[#d4af37]"
+            />
+          </div>
+
+          <div>
+            <label for="vehicleSize" class="block text-xs font-bold uppercase tracking-wider text-secondary-ink mb-2">
+              Porte do Veículo
+            </label>
+            <select
+              id="vehicleSize"
+              onchange="updateBudgetEstimate()"
+              class="w-full px-4 py-3 rounded-xl border text-sm field-input focus:outline-none focus:border-[#d4af37]">
+              <option value="Hatch / Compacto">Hatch / Compacto</option>
+              <option value="Sedan" selected>Sedan</option>
+              <option value="SUV / Picape">SUV / Picape</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="paymentMethod" class="block text-xs font-bold uppercase tracking-wider text-secondary-ink mb-2">
+              Forma de Pagamento
+            </label>
+            <select
+              id="paymentMethod"
+              onchange="updateBudgetEstimate()"
+              class="w-full px-4 py-3 rounded-xl border text-sm field-input focus:outline-none focus:border-[#d4af37]">
+              <option value="Pix / Dinheiro" selected>Pix / Dinheiro</option>
+              <option value="Cartão de Crédito">Cartão de Crédito</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="space-y-3">
+          <span class="block text-xs font-bold uppercase tracking-wider text-secondary-ink">
+            Serviços Selecionados
+          </span>
+          <div id="simulatorServicesList" class="grid grid-cols-1 sm:grid-cols-2 gap-3"></div>
+        </div>
+
+        <div class="p-5 rounded-2xl bg-black/75 border border-[#d4af37]/40 text-white flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div>
+            <span class="text-xs uppercase tracking-wider text-slate-300 block">Condição do Orçamento</span>
+            <span id="budgetTotalDisplay" class="text-3xl sm:text-4xl font-black text-[#f6d76b] block mt-0.5">Sob consulta</span>
+          </div>
+
+          <button
+            type="button"
+            onclick="sendBudgetToWhatsApp()"
+            class="w-full sm:w-auto gold-btn px-7 py-3.5 rounded-xl text-sm font-extrabold uppercase tracking-wider">
+            Enviar no WhatsApp
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- AVALIAÇÕES DO GOOGLE -->
     <section id="avaliacoes" class="py-8 sm:py-14 px-4 sm:px-6">
       <div class="max-w-6xl mx-auto studio-card p-5 sm:p-10 border-[#d4af37]/50 space-y-5 sm:space-y-7">
         <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-5 border-b border-white/10 pb-6">
@@ -907,7 +1117,6 @@
           </div>
         </div>
 
-        <!-- Controles de curadoria real: sem depoimentos fictícios -->
         <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
           <p class="text-xs sm:text-sm text-secondary-ink">
             Espaço reservado para colar <strong class="text-primary-ink">apenas comentários reais</strong> copiados diretamente do perfil no Google. Nenhum depoimento fictício é exibido.
@@ -929,7 +1138,6 @@
           </div>
         </div>
 
-        <!-- Painel de edição opcional para o dono colar comentários reais -->
         <div id="reviewsEditorPanel" class="hidden p-5 rounded-2xl bg-black/65 border border-[#d4af37]/35 text-white space-y-4">
           <div class="flex items-center justify-between gap-2 flex-wrap">
             <h3 class="text-sm font-extrabold uppercase tracking-wider text-[#f6d76b]">
@@ -1010,12 +1218,8 @@
           </div>
         </div>
 
-        <!-- Exibição dos comentários reais preenchidos ou convite direto para avaliar -->
-        <div id="realReviewsContainer" class="grid grid-cols-1 md:grid-cols-3 gap-5">
-          <!-- Renderizado via JavaScript apenas com dados reais inseridos -->
-        </div>
+        <div id="realReviewsContainer" class="grid grid-cols-1 md:grid-cols-3 gap-5"></div>
 
-        <!-- Widget automático de avaliações do Google (SociableKIT) -->
         <div class="pt-4 border-t border-white/10 space-y-3">
           <p class="text-xs font-bold uppercase tracking-wider text-[#d4af37]">
             Feed Automático do Google
@@ -1028,85 +1232,6 @@
       </div>
     </section>
 
-    <!-- SIMULADOR DE ORÇAMENTO INTERATIVO COM ENVIO DIRETO AO WHATSAPP -->
-    <section id="simulador" class="py-8 sm:py-14 px-4 sm:px-6">
-      <div class="max-w-4xl mx-auto studio-card p-5 sm:p-10 border-[#d4af37]/45 space-y-5 sm:space-y-7">
-        <div class="text-center space-y-2">
-          <span class="text-xs font-extrabold uppercase tracking-[0.24em] text-[#d4af37]">Simulador de Orçamento</span>
-          <h2 class="text-3xl sm:text-5xl font-black uppercase tracking-tight text-primary-ink">
-            Monte Seu Orçamento
-          </h2>
-          <p class="text-sm text-secondary-ink">
-            Informe seu veículo, marque os serviços desejados e envie direto para o WhatsApp da 10 Stars Auto Studio.
-          </p>
-        </div>
-
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-          <div>
-            <label for="vehicleModel" class="block text-xs font-bold uppercase tracking-wider text-secondary-ink mb-2">
-              Veículo / Modelo
-            </label>
-            <input
-              id="vehicleModel"
-              type="text"
-              placeholder="Ex: Haval H6 GT / Toro"
-              class="w-full px-4 py-3 rounded-xl border text-sm field-input focus:outline-none focus:border-[#d4af37]"
-            />
-          </div>
-
-          <div>
-            <label for="vehicleSize" class="block text-xs font-bold uppercase tracking-wider text-secondary-ink mb-2">
-              Porte do Veículo
-            </label>
-            <select
-              id="vehicleSize"
-              onchange="updateBudgetEstimate()"
-              class="w-full px-4 py-3 rounded-xl border text-sm field-input focus:outline-none focus:border-[#d4af37]">
-              <option value="Hatch / Compacto">Hatch / Compacto</option>
-              <option value="Sedan" selected>Sedan</option>
-              <option value="SUV / Picape">SUV / Picape</option>
-            </select>
-          </div>
-
-          <div>
-            <label for="paymentMethod" class="block text-xs font-bold uppercase tracking-wider text-secondary-ink mb-2">
-              Forma de Pagamento
-            </label>
-            <select
-              id="paymentMethod"
-              onchange="updateBudgetEstimate()"
-              class="w-full px-4 py-3 rounded-xl border text-sm field-input focus:outline-none focus:border-[#d4af37]">
-              <option value="Pix / Dinheiro" selected>Pix / Dinheiro</option>
-              <option value="Cartão de Crédito">Cartão de Crédito</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="space-y-3">
-          <span class="block text-xs font-bold uppercase tracking-wider text-secondary-ink">
-            Serviços Selecionados
-          </span>
-          <div id="simulatorServicesList" class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <!-- Populado via JavaScript -->
-          </div>
-        </div>
-
-        <div class="p-5 rounded-2xl bg-black/75 border border-[#d4af37]/40 text-white flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div>
-            <span class="text-xs uppercase tracking-wider text-slate-300 block">Estimativa Inicial</span>
-            <span id="budgetTotalDisplay" class="text-3xl sm:text-4xl font-black text-[#f6d76b] block mt-0.5">R$ 0,00</span>
-          </div>
-
-          <button
-            type="button"
-            onclick="sendBudgetToWhatsApp()"
-            class="w-full sm:w-auto gold-btn px-7 py-3.5 rounded-xl text-sm font-extrabold uppercase tracking-wider">
-            Enviar no WhatsApp
-          </button>
-        </div>
-      </div>
-    </section>
-
     <!-- ATENDIMENTO, HORÁRIOS E OBSERVAÇÃO DE ORÇAMENTO -->
     <section id="atendimento" class="py-8 sm:py-14 px-4 sm:px-6">
       <div class="max-w-7xl mx-auto studio-card p-5 sm:p-8 border-[#d4af37]/35 space-y-4 sm:space-y-5">
@@ -1114,7 +1239,7 @@
           <div class="space-y-1">
             <span class="text-xs font-extrabold uppercase tracking-[0.22em] text-[#d4af37]">Atendimento &amp; Agendamento</span>
             <h3 class="text-2xl sm:text-3xl font-black uppercase text-primary-ink">
-              Como Funciona o Atendimento em Osasco
+              Como Funciona o Atendimento
             </h3>
           </div>
           <a
@@ -1142,49 +1267,8 @@
             <span>O prazo varia conforme o serviço e o porte do veículo; o agendamento reserva horário e janela de execução no estúdio.</span>
           </div>
           <div class="p-4 rounded-xl bg-black/50 border border-white/10 text-slate-200 space-y-1">
-            <strong class="text-[#f6d76b] block">Valores Sob Consulta ou Variáveis</strong>
-            <span>Os valores exibidos são iniciais e podem variar conforme o modelo, porte, estado da pintura ou configuração escolhida.</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CUIDADOS APÓS O SERVIÇO (PÓS-ENTREGA) -->
-    <section id="pos-servico" class="py-8 sm:py-14 px-4 sm:px-6">
-      <div class="max-w-7xl mx-auto studio-card p-5 sm:p-10 border-[#d4af37]/40 space-y-5 sm:space-y-7">
-        <div class="space-y-2 max-w-3xl">
-          <span class="text-xs font-extrabold uppercase tracking-[0.24em] text-[#d4af37]">Pós-Entrega</span>
-          <h2 class="text-3xl sm:text-4xl font-black uppercase tracking-tight text-primary-ink">
-            Cuidados Após o Serviço
-          </h2>
-          <p class="text-sm sm:text-base text-secondary-ink leading-relaxed">
-            Orientações práticas para os primeiros dias após retirar o veículo da 10 Stars Auto Studio e preservar o acabamento aplicado.
-          </p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 text-sm text-secondary-ink">
-          <div class="p-5 rounded-2xl bg-black/55 border border-white/10 text-slate-200 space-y-2">
-            <span class="text-xs font-extrabold uppercase tracking-wider text-[#f6d76b]">PPF e Envelopamento</span>
-            <h3 class="text-lg font-extrabold text-white">Cura das Bordas e Lavagem</h3>
-            <p class="leading-relaxed">
-              Evite lavagens de alta pressão, jatos diretos nas bordas ou cera/polimento durante os primeiros dias de acomodação do filme; siga sempre a orientação passada na entrega.
-            </p>
-          </div>
-
-          <div class="p-5 rounded-2xl bg-black/55 border border-white/10 text-slate-200 space-y-2">
-            <span class="text-xs font-extrabold uppercase tracking-wider text-[#f6d76b]">Insulfilm</span>
-            <h3 class="text-lg font-extrabold text-white">Vidros e Limpeza Interna</h3>
-            <p class="leading-relaxed">
-              Aguarde o período recomendado antes de acionar os vidros ou limpar a face interna; pequenas marcas de secagem fazem parte do processo inicial e tendem a sumir.
-            </p>
-          </div>
-
-          <div class="p-5 rounded-2xl bg-black/55 border border-white/10 text-slate-200 space-y-2">
-            <span class="text-xs font-extrabold uppercase tracking-wider text-[#f6d76b]">Polimento + Vitrificação e Higienização</span>
-            <h3 class="text-lg font-extrabold text-white">Manutenção do Brilho e Interior</h3>
-            <p class="leading-relaxed">
-              Prefira lavagem neutra e panos de microfibra limpos, evitando produtos abrasivos na pintura vitrificada e mantendo o interior arejado após a higienização.
-            </p>
+            <strong class="text-[#f6d76b] block">Orçamento Sob Consulta</strong>
+            <span>Todos os orçamentos são sob consulta e avaliados conforme o modelo, porte, estado da pintura ou configuração escolhida.</span>
           </div>
         </div>
       </div>
@@ -1203,11 +1287,11 @@
         <div class="space-y-3">
           <details class="group rounded-xl bg-black/55 border border-white/10 p-4 text-white">
             <summary class="cursor-pointer font-bold text-sm sm:text-base text-[#f6d76b] list-none flex items-center justify-between gap-3">
-              <span>Qual a diferença de garantia entre o PPF Prime Gloss e o PPF Standard?</span>
+              <span>Qual a diferença de garantia entre o PPF Prime Gloss, Matte e Standard?</span>
               <span class="text-xs uppercase tracking-wider text-slate-300 group-open:rotate-180 transition">▼</span>
             </summary>
             <p class="mt-2.5 text-sm text-slate-200 leading-relaxed">
-              O PPF Prime Gloss Importado possui 7 anos de garantia, enquanto o PPF Standard possui 4 anos de garantia, conforme as condições do serviço contratado.
+              O PPF Prime Gloss Importado e o PPF Matte possuem 7 anos de garantia, enquanto o PPF Standard possui 4 anos de garantia, conforme as condições do serviço contratado.
             </p>
           </details>
 
@@ -1345,64 +1429,100 @@
     const STUDIO_ADDRESS = 'Av. Brasil, 221 - Rochdale, Osasco - SP, CEP 06220-050';
     const STUDIO_PHOTOS = [
       {
+        src: 'WhatsApp Image 2026-11-25 at 15.58.43.jpeg',
+        fallbackSrcs: [
+          'WhatsApp Image 2026-11-25 at 15.58.43.jpg',
+          'WhatsApp%20Image%202026-11-25%20at%2015.58.43.jpeg'
+        ],
+        caption: 'Mostruário & Estúdio • 10 Stars',
+        title: 'Mostruário de Películas, Iluminação LED e Parede 10 Stars'
+      },
+      {
+        src: 'WhatsApp Image 2026-11-25 at 15.58.43 (1).jpg',
+        fallbackSrcs: [
+          'WhatsApp Image 2026-11-25 at 15.58.43 (1).jpeg',
+          'WhatsApp Image 2026-11-25 at 15.58.43 (1)_2.jpg',
+          'WhatsApp%20Image%202026-11-25%20at%2015.58.43%20(1).jpg'
+        ],
+        caption: 'Box de Estética • Iluminação LED',
+        title: 'Piso Modular Verde e Preto, Barras de LED e Área Técnica'
+      },
+      {
         src: 'unnamed (3).webp',
+        fallbackSrcs: ['unnamed (3).jpg', 'unnamed (3).png'],
         caption: 'Fachada • 10 Stars Auto Studio',
         title: 'Fachada na Av. Brasil, 221'
       },
       {
         src: 'unnamed (1).webp',
+        fallbackSrcs: ['unnamed (1).jpg', 'unnamed (1).png'],
         caption: 'Recepção & Balcão • Estúdio',
         title: 'Recepção, Balcão e Painel Verde'
       },
       {
         src: 'unnamed (2).webp',
+        fallbackSrcs: ['unnamed (2).jpg', 'unnamed (2).png'],
         caption: 'Salão Principal • Iluminação LED',
         title: 'Salão Principal e Iluminação Hexagonal'
       },
       {
         src: 'unnamed.webp',
+        fallbackSrcs: ['unnamed.jpg', 'unnamed.png'],
         caption: 'Atendimento & Espaço Interno',
         title: 'Balcão Ripado e Ambiente Interno'
       }
     ];
 
     const SIMULATOR_SERVICES = [
-      { name: 'PPF Prime Gloss Importado (7 Anos)', price: 8999, consult: false },
-      { name: 'PPF Standard (4 Anos)', price: 7899, consult: false },
-      { name: 'Envelopamento', price: 4799, consult: false },
-      { name: 'Insulfilm Antivandalismo', price: 999, consult: false },
-      { name: 'Polimento + Vitrificação', price: 899, consult: false },
-      { name: 'Insulfilm Nano Carbon', price: 499, consult: false },
-      { name: 'Higienização Interna', price: 499, consult: false },
-      { name: 'Insulfilm Nano Cerâmica', price: 0, consult: true },
-      { name: 'Som Automotivo', price: 0, consult: true },
-      { name: 'Multimídia', price: 0, consult: true },
-      { name: 'Engate', price: 0, consult: true },
-      { name: 'Acessórios em Geral', price: 0, consult: true },
-      { name: 'Acessórios para Caminhonetes', price: 0, consult: true }
+      { name: 'PPF Prime Gloss Importado (7 Anos)' },
+      { name: 'PPF Matte (7 Anos)' },
+      { name: 'PPF Standard (4 Anos)' },
+      { name: 'Envelopamento' },
+      { name: 'Insulfilm Antivandalismo' },
+      { name: 'Polimento + Vitrificação' },
+      { name: 'Insulfilm Nano Carbon' },
+      { name: 'Higienização Interna' },
+      { name: 'Insulfilm Nano Cerâmica' },
+      { name: 'Som Automotivo' },
+      { name: 'Multimídia' },
+      { name: 'Engate' },
+      { name: 'Acessórios em Geral' },
+      { name: 'Acessórios para Caminhonetes' }
     ];
 
     let isBgPaused = false;
     let isBgHidden = false;
     let isLightTheme = false;
 
-    // Fallback para fotos do estúdio ou do fundo
-    function handleMediaFallback(imgEl, label) {
-      if (!imgEl || imgEl.dataset.fallbackApplied) return;
+    function handleMediaFallback(imgEl, label, fallbacksJson) {
+      if (!imgEl) return;
+      let candidates = [];
+      try {
+        if (!imgEl.dataset.fallbackQueue) {
+          candidates = fallbacksJson ? JSON.parse(decodeURIComponent(fallbacksJson)) : [];
+          imgEl.dataset.fallbackQueue = JSON.stringify(candidates);
+          imgEl.dataset.fallbackIndex = '0';
+        } else {
+          candidates = JSON.parse(imgEl.dataset.fallbackQueue || '[]');
+        }
+      } catch (err) {
+        candidates = [];
+      }
+
+      const currentIndex = Number(imgEl.dataset.fallbackIndex || '0');
+      if (currentIndex < candidates.length) {
+        imgEl.dataset.fallbackIndex = String(currentIndex + 1);
+        imgEl.src = candidates[currentIndex];
+        return;
+      }
+
+      if (imgEl.dataset.fallbackApplied) return;
       imgEl.dataset.fallbackApplied = 'true';
       imgEl.onerror = null;
       const safeLabel = encodeURIComponent(label || '10 Stars Auto Studio');
       imgEl.src = `https://placehold.co/800x500/0b0d13/d4af37?text=${safeLabel}`;
     }
 
-    function formatBRL(value) {
-      return Number(value || 0).toLocaleString('pt-BR', {
-        style: 'currency',
-        currency: 'BRL'
-      });
-    }
-
-    // Monta sequência evitando repetir a mesma foto em sequência no loop
     function buildNonRepeatingSequence(list) {
       if (!Array.isArray(list) || list.length === 0) return [];
       const reversed = [...list].reverse().filter((item, idx, arr) => {
@@ -1428,8 +1548,8 @@
           <img
             src="${photo.src}"
             alt="${photo.title}"
-            loading="lazy"
-            onerror="handleMediaFallback(this, '${photo.caption}')"
+            loading="eager"
+            onerror="handleMediaFallback(this, '${photo.caption}', '${encodeURIComponent(JSON.stringify(photo.fallbackSrcs || []))}')"
           />
           <span class="bg-scene-caption">${photo.caption}</span>
         </div>
@@ -1449,8 +1569,8 @@
             <img
               src="${photo.src}"
               alt="${photo.title}"
-              loading="lazy"
-              onerror="handleMediaFallback(this, '${photo.caption}')"
+              loading="eager"
+              onerror="handleMediaFallback(this, '${photo.caption}', '${encodeURIComponent(JSON.stringify(photo.fallbackSrcs || []))}')"
               class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
             />
           </button>
@@ -1478,7 +1598,9 @@
       const caption = document.getElementById('photoModalCaption');
       if (img) {
         img.dataset.fallbackApplied = '';
-        img.onerror = () => handleMediaFallback(img, photo.caption);
+        img.dataset.fallbackQueue = '';
+        img.dataset.fallbackIndex = '0';
+        img.onerror = () => handleMediaFallback(img, photo.caption, encodeURIComponent(JSON.stringify(photo.fallbackSrcs || [])));
         img.src = photo.src;
         img.alt = photo.title;
       }
@@ -1519,32 +1641,27 @@
       const container = document.getElementById('simulatorServicesList');
       if (!container) return;
 
-      container.innerHTML = SIMULATOR_SERVICES.map((srv, idx) => {
-        const priceLabel = srv.consult ? 'Sob consulta' : `A partir de ${formatBRL(srv.price)}`;
-        return `
-          <label class="flex items-center justify-between gap-3 p-3.5 rounded-xl bg-black/55 border border-white/10 text-white cursor-pointer hover:border-[#d4af37]/60 transition">
-            <span class="flex items-center gap-2.5 text-xs sm:text-sm font-semibold">
-              <input
-                type="checkbox"
-                id="simSrv_${idx}"
-                data-name="${srv.name}"
-                data-price="${srv.price}"
-                data-consult="${srv.consult ? '1' : '0'}"
-                onchange="updateBudgetEstimate()"
-                class="w-4 h-4 accent-[#d4af37] rounded"
-              />
-              <span>${srv.name}</span>
-            </span>
-            <span class="text-xs font-extrabold text-[#f6d76b] shrink-0">${priceLabel}</span>
-          </label>
-        `;
-      }).join('');
+      container.innerHTML = SIMULATOR_SERVICES.map((srv, idx) => `
+        <label class="flex items-center justify-between gap-3 p-3.5 rounded-xl bg-black/55 border border-white/10 text-white cursor-pointer hover:border-[#d4af37]/60 transition">
+          <span class="flex items-center gap-2.5 text-xs sm:text-sm font-semibold">
+            <input
+              type="checkbox"
+              id="simSrv_${idx}"
+              data-name="${srv.name}"
+              onchange="updateBudgetEstimate()"
+              class="w-4 h-4 accent-[#d4af37] rounded"
+            />
+            <span>${srv.name}</span>
+          </span>
+          <span class="text-xs font-extrabold text-[#f6d76b] shrink-0">Sob consulta</span>
+        </label>
+      `).join('');
     }
 
-    function selectServiceInSimulator(serviceName, fallbackPrice) {
+    function selectServiceInSimulator(serviceName) {
       const checkboxes = document.querySelectorAll('#simulatorServicesList input[type="checkbox"]');
       checkboxes.forEach((cb) => {
-        if (cb.dataset.name === serviceName || (fallbackPrice && Number(cb.dataset.price) === Number(fallbackPrice) && !cb.checked)) {
+        if (cb.dataset.name === serviceName) {
           cb.checked = true;
         }
       });
@@ -1554,31 +1671,8 @@
     }
 
     function updateBudgetEstimate() {
-      const checkboxes = document.querySelectorAll('#simulatorServicesList input[type="checkbox"]:checked');
-      let total = 0;
-      let hasConsultOnly = false;
-
-      checkboxes.forEach((cb) => {
-        const val = Number(cb.dataset.price || 0);
-        if (val > 0) {
-          total += val;
-        } else if (cb.dataset.consult === '1') {
-          hasConsultOnly = true;
-        }
-      });
-
       const display = document.getElementById('budgetTotalDisplay');
-      if (!display) return;
-
-      if (total > 0 && hasConsultOnly) {
-        display.textContent = `${formatBRL(total)} + Sob consulta`;
-      } else if (total > 0) {
-        display.textContent = formatBRL(total);
-      } else if (hasConsultOnly) {
-        display.textContent = 'Sob consulta';
-      } else {
-        display.textContent = 'R$ 0,00';
-      }
+      if (display) display.textContent = 'Sob consulta';
     }
 
     function sendBudgetToWhatsApp() {
@@ -1588,7 +1682,7 @@
       const checked = Array.from(document.querySelectorAll('#simulatorServicesList input[type="checkbox"]:checked'));
 
       const lines = [
-        'Olá! Vim pelo site da *10 Stars Auto Studio* (Osasco - SP) e gostaria de um orçamento:',
+        'Olá! Vim pelo site da *10 Stars Auto Studio* e gostaria de um orçamento (sob consulta):',
         `• *Veículo:* ${model}`,
         `• *Porte:* ${size}`,
         `• *Pagamento:* ${payment}`
@@ -1596,18 +1690,11 @@
 
       if (checked.length > 0) {
         lines.push('• *Serviços selecionados:*');
-        let total = 0;
         checked.forEach((cb) => {
-          const p = Number(cb.dataset.price || 0);
-          total += p;
-          const pText = p > 0 ? ` (a partir de ${formatBRL(p)})` : ' (sob consulta)';
-          lines.push(`  - ${cb.dataset.name}${pText}`);
+          lines.push(`  - ${cb.dataset.name} (sob consulta)`);
         });
-        if (total > 0) {
-          lines.push(`• *Estimativa inicial:* ${formatBRL(total)}`);
-        }
       } else {
-        lines.push('• *Serviços:* A definir com a equipe');
+        lines.push('• *Serviços:* A definir com a equipe (sob consulta)');
       }
 
       const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(lines.join('\n'))}`;
@@ -1762,7 +1849,9 @@
     function setupVideoFallbacks() {
       const configs = [
         { videoId: 'havalVideoPlayer', fallbackId: 'havalVideoFallback' },
-        { videoId: 'toroVideoPlayer', fallbackId: 'toroVideoFallback' }
+        { videoId: 'toroVideoPlayer', fallbackId: 'toroVideoFallback' },
+        { videoId: 'mercedesVideoPlayer', fallbackId: 'mercedesVideoFallback' },
+        { videoId: 'audiCabrioletVideoPlayer', fallbackId: 'audiCabrioletVideoFallback' }
       ];
 
       configs.forEach(({ videoId, fallbackId }) => {
